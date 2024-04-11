@@ -1,29 +1,63 @@
 import {
-  Links,
-  Meta,
-  Outlet,
-  Scripts,
-  ScrollRestoration,
+    Links,
+    Meta,
+    Scripts,
+    ScrollRestoration,
 } from "@remix-run/react";
 
+import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
+import About from "./components/About"
+import Footer from "./components/Footer"
+import Tech from "./components/Tech"
+import Works from "./components/Works"
+import Contact from "./components/Contact"
+import { StarsCanvas } from "./components/canvas";
+import "~/index.css"
+
 export function Layout({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="en">
-      <head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <Meta />
-        <Links />
-      </head>
-      <body>
-        {children}
-        <ScrollRestoration />
-        <Scripts />
-      </body>
-    </html>
-  );
+    return (
+        <html lang="es">
+            <head>
+                <meta charSet="UTF-8" />
+                <title>Santos Alarcón - Desarrollador Web</title>
+                <link rel="icon" type="image/webp" href="/LogoSantosAlarcon.webp" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <meta name="robots" content="index, follow" />
+                <meta name="title" content="Santos Alarcón - Desarrollador Web" />
+                <meta property="description" content="Portfolio Web de Santos Alarcón, desarrollador Web" />
+                <meta name="description" content="Portfolio Web de Santos Alarcón, desarrollador Web" />
+                <meta name="keywords" content="santos alarcon, desarrollo web, desarrollo web castilla la mancha, desarrollo web ciudad real, portfolio" />
+                <meta property="og:title" content="Santos Alarcón - Desarrollador Web" />
+                <meta property="og:description" content="Portfolio Web de Santos Alarcón, desarrollador Web" />
+                <meta property="og:image" content="https://www.santosalarcon.es/LogoTransparente.webp" />
+                <meta property="og:url" content="https://www.santosalarcon.es" />
+                <Links />
+            </head>
+            <body>
+                {children}
+                <ScrollRestoration />
+                <Scripts />
+            </body>
+        </html>
+    );
 }
 
 export default function App() {
-  return <Outlet />;
+    return (
+        <div className="relative bg-primary">
+            <div className="bg-hero-pattern bg-cover bg-center bg-no-repeat">
+                <Navbar />
+                <Hero />
+            </div>
+            <About />
+            <Tech />
+            <Works />
+            <div className="relative z-0">
+                <Contact />
+                <StarsCanvas />
+            </div>
+            <Footer />
+        </div>
+    )
 }

@@ -1,0 +1,15 @@
+#mobile-menu-link:nth-child(1) {
+    transition-delay: 0.05s;
+}
+
+#mobile-menu-link:nth-child(2) {
+    transition-delay: 0.1s;
+}
+
+#mobile-menu-link:nth-child(3) {
+    transition-delay: 0.15s;
+}
+
+#mobile-menu-link:nth-child(4) {
+    transition-delay: 0.2s;
+}

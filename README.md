@@ -1,36 +1,13 @@
-# Welcome to Remix + Vite!
+# Portfolio personal de Santos Alarcón
 
-📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/future/vite) for details on supported features.
+![](PortfolioSantos.webp)
+Este es un portfolio con elementos en 3D usando las librerías **Three.js** y **React Three Fiber** para renderizar elementos 3D. Estoy pensando en usar este portfolio a nivel personal conforme vaya adquiriendo experiencia profesional y desarrollando proyectos por cuenta propia.
 
-## Development
+-   100% responsive
+-   Formulario de contacto que usa **EmailJS**.
 
-Run the Vite dev server:
+La inspiración de este proyecto proviene de un tutorial en inglés del canal de [JS Mastery](https://www.youtube.com/@javascriptmastery).
 
-```shellscript
-npm run dev
-```
+El proyecto está alojado en **Vercel** para que la gente lo pueda ver. Cualquier cambio que se efectue en el repositorio, éste se verá reflejado al instante en producción tras su despliegue.
 
-## Deployment
-
-First, build your app for production:
-
-```sh
-npm run build
-```
-
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
+Si tenéis algún problema con la visualización de la página, podéis mandarme una Pull Request.

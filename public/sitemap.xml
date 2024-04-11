@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--	created with www.mysitemapgenerator.com	-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+	    <loc>https://www.santosalarcon.es/</loc>
+	    <lastmod>2024-04-10T12:32:23+01:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>1.0</priority>
+    </url>
+    <url>
+	    <loc>https://www.santosalarcon.es#about</loc>
+	    <lastmod>2024-04-10T12:32:23+01:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>1.0</priority>
+    </url>
+    <url>
+	    <loc>https://www.santosalarcon.es#tech</loc>
+	    <lastmod>2024-04-10T12:32:23+01:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>1.0</priority>
+    </url>
+    <url>
+	    <loc>https://www.santosalarcon.es#works</loc>
+	    <lastmod>2024-04-10T12:32:23+01:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>1.0</priority>
+    </url>
+    <url>
+	    <loc>https://www.santosalarcon.es#contact</loc>
+	    <lastmod>2024-04-10T12:32:23+01:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>1.0</priority>
+    </url>
+    <url>
+	    <loc>https://www.santosalarcon.es/CurriculumFullStack.pdf</loc>
+	    <lastmod>2024-04-10T12:32:23+01:00</lastmod>
+	    <changefreq>daily</changefreq>
+	    <priority>0.8</priority>
+    </url>
+</urlset>
+
