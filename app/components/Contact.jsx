@@ -70,10 +70,10 @@ const Contact = () => {
                     Pónte en contacto conmigo
                 </p>
 
-                <div className="flex justify-between gap-8 py-8">
+                <div className="flex sm:flex-col justify-between gap-8 py-8">
                     <a
                         href="/CurriculumFullStack.pdf"
-                        className="flex w-fit items-center gap-2 rounded-xl bg-tertiary px-8 py-3 font-bold text-white shadow-md shadow-primary outline-none active:scale-95 active:shadow-inner"
+                        className="flex w-fit sm:w-full items-center gap-2 rounded-xl bg-tertiary px-8 py-3 font-bold text-white shadow-md shadow-primary outline-none active:scale-95 active:shadow-inner"
 			title="Descargar CV"
                     >
                         <svg
@@ -91,7 +91,7 @@ const Contact = () => {
                     </a>
                     <a
                         href="tel:641278743"
-                        className="flex w-fit items-center justify-center gap-2 rounded-xl bg-tertiary px-8 py-3 font-bold text-white shadow-md shadow-primary outline-none active:scale-95 active:shadow-inner"
+                        className="flex w-fit sm:w-full items-center justify-center gap-2 rounded-xl bg-tertiary px-8 py-3 font-bold text-white shadow-md shadow-primary outline-none active:scale-95 active:shadow-inner"
 			title="Número de teléfono"
                     >
                         <svg
