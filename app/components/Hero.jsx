@@ -1,5 +1,3 @@
-import React from "react";
-import { motion } from "framer-motion";
 import { styles } from "../styles";
 import logo from "/LogoTransparente.webp";
 
@@ -9,7 +7,7 @@ const Hero = () => {
             <div
                 className={`${styles.paddingX} absolute inset-0 top-[120px] mx-auto flex max-w-7xl flex-row justify-center gap-5`}
             >
-                <link rel="preload" as="image" href={logo} />
+                <link rel="preload" as="image" href={logo} fetchpriority="high" />
                 <img src={logo} className="h-auto object-contain" alt="logo" />
             </div>
 
