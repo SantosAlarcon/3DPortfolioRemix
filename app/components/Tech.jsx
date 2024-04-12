@@ -16,14 +16,14 @@ const Tech = () => {
             </div>
 
             <div className="flex flex-row flex-wrap justify-between sm:justify-start">
-                <h2 className="w-full text-2xl">Front-end</h2>
+                <h2 className="w-full font-semibold text-2xl">Front-end</h2>
                 {tech_front.map((tech) => (
                     <div className="h-24 w-24 sm:h-28 sm:w-28" key={tech.name}>
                         <TechCard image={tech.icon} title={tech.name} />
                     </div>
                 ))}
 
-                <h2 className="w-full text-2xl">Back-end</h2>
+                <h2 className="w-full font-semibold text-2xl pt-10">Back-end</h2>
                 {tech_back.map((tech) => (
                     <div className="h-24 w-24 sm:h-28 sm:w-28" key={tech.name}>
                         <TechCard image={tech.icon} title={tech.name} />
