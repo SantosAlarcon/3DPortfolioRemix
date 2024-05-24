@@ -19,6 +19,7 @@ import tailwind from "./tech/tailwind.webp";
 import express from "./tech/express.webp";
 import figma from "./tech/figma.webp";
 import git from "./tech/git.webp";
+import nextjs from "./tech/nextjs.svg";
 import nodejs from "./tech/nodejs.webp";
 import python from "./tech/python.webp";
 import mysql from "./tech/mysql.svg";
@@ -55,6 +56,7 @@ export {
     javascript,
     bootstrap,
     nodejs,
+    nextjs,
     python,
     reactjs,
     tailwind,

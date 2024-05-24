@@ -1,4 +1,3 @@
-import React from "react";
 import { SectionWrapper } from "../hoc";
 import { tech_front, tech_back } from "../constants";
 import { styles } from "../styles";
@@ -17,18 +16,22 @@ const Tech = () => {
 
             <div className="flex flex-row flex-wrap justify-between sm:justify-start">
                 <h2 className="w-full font-semibold text-2xl">Front-end</h2>
-                {tech_front.map((tech) => (
-                    <div className="h-24 w-24 sm:h-28 sm:w-28" key={tech.name}>
-                        <TechCard image={tech.icon} title={tech.name} />
-                    </div>
-                ))}
+                <div className="flex items-center">
+                    {tech_front.map((tech) => (
+                        <div className="h-24 w-24 sm:h-28 sm:w-28" key={tech.name}>
+                            <TechCard image={tech.icon} title={tech.name} />
+                        </div>
+                    ))}
+                </div>
 
                 <h2 className="w-full font-semibold text-2xl pt-10">Back-end</h2>
-                {tech_back.map((tech) => (
-                    <div className="h-24 w-24 sm:h-28 sm:w-28" key={tech.name}>
-                        <TechCard image={tech.icon} title={tech.name} />
-                    </div>
-                ))}
+                <div className="flex items-center">
+                    {tech_back.map((tech) => (
+                        <div className="h-24 w-24 sm:h-28 sm:w-28" key={tech.name}>
+                            <TechCard image={tech.icon} title={tech.name} />
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     );

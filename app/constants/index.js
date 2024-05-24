@@ -17,6 +17,7 @@ import {
     git,
     figma,
     docker,
+    nextjs,
     meta,
     starbucks,
     tesla,
@@ -86,6 +87,10 @@ const tech_front = [
         name: "Tailwind CSS",
         icon: tailwind,
     },
+    {
+        name: "NextJS",
+        icon: nextjs,
+    }
 ];
 
 const tech_back = [
