@@ -1,5 +1,3 @@
-import React from "react";
-
 const Footer = () => {
 	return (
 		<footer className="mx-auto flex flex-col justify-center gap-5 bg-black-100 px-6 py-8 text-[18px] max-sm:text-[14px]">
@@ -84,13 +82,13 @@ const Footer = () => {
 					target="_blank"
 				>
 					<svg
-                        id="social"
+						id="social"
 						role="img"
 						width="48"
 						height="48"
 						viewBox="0 0 30 30"
 						fill="currentColor"
-						stroke-width="1.8"
+						strokeWidth="1.8"
 						stroke="none"
 						xmlns="http://www.w3.org/2000/svg"
 					>
