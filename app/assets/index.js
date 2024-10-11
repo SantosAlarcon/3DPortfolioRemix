@@ -35,7 +35,8 @@ import tesla from "./company/tesla.png";
 import portfolio from "./works/PortfolioSantos.webp";
 import lavelada3 from "./works/lavelada3.webp";
 import bookmarker from "./works/Bookmarker.webp";
-import iphone15pro from "./works/iphone15pro.webp"
+import iphone15pro from "./works/iphone15pro.webp";
+import nextkeep from "./works/NextKeep.webp";
 
 export {
     logo,
@@ -71,5 +72,6 @@ export {
     portfolio,
     lavelada3,
     bookmarker,
-    iphone15pro
+    iphone15pro,
+    nextkeep
 };
