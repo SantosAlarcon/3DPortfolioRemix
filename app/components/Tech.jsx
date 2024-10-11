@@ -16,7 +16,7 @@ const Tech = () => {
 
             <div className="flex flex-row flex-wrap justify-between sm:justify-start">
                 <h2 className="w-full font-semibold text-2xl">Front-end</h2>
-                <div className="flex items-center">
+                <div className="flex items-center flex-wrap max-sm:justify-center">
                     {tech_front.map((tech) => (
                         <div className="h-24 w-24 sm:h-28 sm:w-28" key={tech.name}>
                             <TechCard image={tech.icon} title={tech.name} />
@@ -25,7 +25,7 @@ const Tech = () => {
                 </div>
 
                 <h2 className="w-full font-semibold text-2xl pt-10">Back-end</h2>
-                <div className="flex items-center">
+                <div className="flex items-center flex-wrap max-sm:justify-center">
                     {tech_back.map((tech) => (
                         <div className="h-24 w-24 sm:h-28 sm:w-28" key={tech.name}>
                             <TechCard image={tech.icon} title={tech.name} />
