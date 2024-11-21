@@ -47,7 +47,7 @@ const ProjectCard = ({ name, index, description, tags, image, source_code_link, 
                     <a
                         className="black-gradient flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
                         aria-label="Ir al proyecto en funcionamiento"
-                        href={source_code_link}
+                        href={live_code_link}
                         target="_blank"
                         rel="noreferrer"
                     >
