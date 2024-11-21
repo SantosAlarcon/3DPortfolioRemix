@@ -12,10 +12,6 @@
     font-family: "Jost", sans-serif;
     scroll-behavior: smooth;
     color-scheme: dark;
-
-    &:focus {
-        outline: 2px solid #eee;
-    }
 }
 
 html {

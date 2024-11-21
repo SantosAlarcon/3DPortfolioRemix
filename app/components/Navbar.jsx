@@ -84,6 +84,7 @@ const Navbar = () => {
                     {navLinks.map((link) => (
                         <li
                             id="mobile-menu-link"
+                            aria-hidden="true"
                             key={link.id}
                             className={`${
                                 active === link.title
