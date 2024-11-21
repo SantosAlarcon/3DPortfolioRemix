@@ -26,7 +26,8 @@ import {
 	portfolio,
 	bookmarker,
 	iphone15pro,
-	nextkeep
+	nextkeep,
+    eventosmanga
 } from "../assets";
 
 export const navLinks = [
@@ -324,6 +325,29 @@ const projects = [
 		image: nextkeep,
 		source_code_link: "https://github.com/SantosAlarcon/next-keep",
 		live_code_link: "https://next-keep.netlify.app",
+	},
+    {
+		name: "Eventos Manga",
+		description:
+			"Página de eventos de manga y anime en España donde el usuario puede buscar eventos y ver información detallada sobre ellos.",
+		tags: [
+            {
+                name: "Astro",
+                color: "astro",
+            },
+            {  
+                name: "MDX",
+                color: "mdx",
+            },
+			{
+				name: "React",
+				color: "react",
+			},
+
+		],
+		image: eventosmanga,
+		source_code_link: "https://github.com/SantosAlarcon/eventosmanga",
+		live_code_link: "https://santosalarcon.github.io/eventosmanga/",
 	},
 
 ];

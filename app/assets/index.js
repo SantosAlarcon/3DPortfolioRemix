@@ -37,6 +37,7 @@ import lavelada3 from "./works/lavelada3.webp";
 import bookmarker from "./works/Bookmarker.webp";
 import iphone15pro from "./works/iphone15pro.webp";
 import nextkeep from "./works/NextKeep.webp";
+import eventosmanga from "./works/EventosManga.webp";
 
 export {
     logo,
@@ -73,5 +74,6 @@ export {
     lavelada3,
     bookmarker,
     iphone15pro,
-    nextkeep
+    nextkeep,
+    eventosmanga
 };
