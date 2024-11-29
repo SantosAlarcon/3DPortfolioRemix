@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { menu, close } from "../assets";
 import logo from "/LogoSantosAlarcon.svg";
 import "../styles/Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const [active, setActive] = useState("");

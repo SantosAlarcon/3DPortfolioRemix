@@ -1,5 +1,5 @@
 import { styles } from "../styles";
-import logo from "/LogoTransparente.webp";
+import logo from "/SantosAlarconLight.svg";
 
 const Hero = () => {
     return (
