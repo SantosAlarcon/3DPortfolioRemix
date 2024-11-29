@@ -73,6 +73,7 @@ const Contact = () => {
                 <div className="flex max-md:flex-col justify-between gap-8 py-8">
                     <a
                         href="/CurriculumFullStack.pdf"
+                        aria-label="Descargar curriculum"
                         className="flex w-fit max-md:w-full items-center justify-center gap-2 rounded-xl bg-tertiary px-8 py-3 font-bold text-white shadow-md shadow-primary outline-none active:scale-95 active:shadow-inner"
 			title="Descargar CV"
                     >
@@ -91,6 +92,7 @@ const Contact = () => {
                     </a>
                     <a
                         href="tel:641278743"
+                        aria-label="Llamar al número de teléfono"
                         className="flex w-fit max-md:w-full items-center justify-center gap-2 rounded-xl bg-tertiary px-8 py-3 font-bold text-white shadow-md shadow-primary outline-none active:scale-95 active:shadow-inner"
 			title="Número de teléfono"
                     >
@@ -126,6 +128,7 @@ const Contact = () => {
                             className="rounded-lg border-none bg-tertiary px-6 py-4 font-medium text-white outline-none placeholder:text-secondary"
                             type="text"
                             placeholder="Nombre"
+                            aria-label="Nombre"
                             required
                             name="nombre"
                             value={form.nombre}
@@ -146,6 +149,7 @@ const Contact = () => {
                             className="rounded-lg border-none bg-tertiary px-6 py-4 font-medium text-white outline-none placeholder:text-secondary"
                             type="email"
                             placeholder="Correo electrónico"
+                            aria-label="Correo electrónico"
                             required
                             name="email"
                             value={form.email}
@@ -166,6 +170,7 @@ const Contact = () => {
                             className="rounded-lg border-none bg-tertiary px-6 py-4 font-medium text-white outline-none placeholder:text-secondary"
                             type="text"
                             placeholder="Mensaje"
+                            aria-label="Mensaje"
                             required
                             rows={7}
                             name="mensaje"
@@ -176,6 +181,7 @@ const Contact = () => {
                     <div className="flex flex-wrap gap-8">
                         <button
                             type="submit"
+                            aria-label="Enviar"
                             className="w-fit rounded-xl bg-tertiary px-8 py-3 font-bold text-white shadow-md shadow-primary outline-none active:scale-95 active:shadow-inner"
                         >
                             {loading ? "Enviando..." : "Enviar"}
