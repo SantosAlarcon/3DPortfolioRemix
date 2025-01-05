@@ -245,7 +245,7 @@ const projects = [
 			},
 		],
 		image: portfolio,
-		source_code_link: "https://github.com/SantosAlarcon/3DPortfolio",
+		source_code_link: "https://github.com/SantosAlarcon/3DPortfolioRemix",
 		live_code_link: "https://www.santosalarcon.es",
 	},
 	{
@@ -347,7 +347,7 @@ const projects = [
 		],
 		image: eventosmanga,
 		source_code_link: "https://github.com/SantosAlarcon/eventosmanga",
-		live_code_link: "https://santosalarcon.github.io/eventosmanga/",
+		live_code_link: "https://www.eventosmanga.es",
 	},
 
 ];
