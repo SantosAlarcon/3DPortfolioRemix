@@ -3,7 +3,7 @@ import { StarField } from "starfield-react/dist/starfield-react";
 const Stars = () => {
     return (
         <StarField
-            className="h-fill-available w-full"
+            className="h-full w-full"
             width={1200}
             height={1200}
             fps={60}

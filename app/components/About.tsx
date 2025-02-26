@@ -14,10 +14,10 @@ interface ServiceCardProps {
 
 const ServiceCard = ({ title, icon, index }: ServiceCardProps) => {
     return (
-        <ReactParallaxTilt className="w-full select-none xs:w-[250px]" scale={1} tiltEnable transitionSpeed={450} tiltMaxAngleX={45} tiltMaxAngleY={45}>
+        <ReactParallaxTilt className="w-full select-none sm:w-[250px]" scale={1} tiltEnable transitionSpeed={450} tiltMaxAngleX={45} tiltMaxAngleY={45}>
             <MotionDiv
                 variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-                className="green-pink-gradient w-full rounded-[20px] p-[1px] shadow-card"
+                className="green-pink-gradient w-full rounded-[20px] p-[1px] shadow-[var(--card)]"
             >
                 <div
                     className="flex min-h-[280px] flex-col items-center justify-evenly rounded-[20px] bg-tertiary px-12 py-5"
@@ -90,7 +90,7 @@ const About = () => {
                         className="rounded-full max-sm:mx-auto max-sm:w-[75%]"
                         alt="Santos Alarcón"
                         src={photo}
-			loading="lazy"
+                        loading="lazy"
                     />
                 </MotionDiv>
             </div>

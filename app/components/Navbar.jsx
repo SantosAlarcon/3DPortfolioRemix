@@ -29,9 +29,9 @@ const Navbar = () => {
     return (
         <header>
             <nav
-                className={`${styles.paddingX} bg-navbar fixed top-0 z-20 flex w-full items-center py-5 backdrop-blur`}
+                className={`${styles.paddingX} fixed top-0 z-20 flex w-full items-center py-[15px] justify-center`}
             >
-                <div className="mx-auto flex w-full max-w-7xl items-center justify-between">
+                <div className="mx-auto bg-navbar backdrop-blur flex w-full max-w-9xl items-center justify-between px-8 py-2 rounded-full">
                     <Link
                         to="/"
                         className="flex items-center gap-2"
@@ -49,7 +49,7 @@ const Navbar = () => {
                             Santos Alarcón Asensio
                         </p>
                     </Link>
-                    <ul className="hidden list-none flex-row gap-10 sm:flex">
+                    <ul className="hidden list-none flex-row gap-2 sm:flex">
                         {navLinks.map((link) => (
                             <li
                                 key={link.id}
@@ -57,7 +57,7 @@ const Navbar = () => {
                                     active === link.title
                                         ? "text-white"
                                         : "text-secondary"
-                                } cursor-pointer text-[18px] font-medium hover:text-white`}
+                                } cursor-pointer text-[18px] font-medium hover:text-white transition hover:bg-[#6666aa66] rounded-full px-4`}
                                 onClick={() => setActive(link.title)}
                             >
                                 <a href={`#${link.id}`}>{link.title}</a>
