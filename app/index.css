@@ -231,10 +231,6 @@
     }
 }
 
-#social {
-    color: #fff;
-}
-
 .jsx::before {
     content: "<";
 }
