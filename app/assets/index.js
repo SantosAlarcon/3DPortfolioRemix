@@ -8,23 +8,24 @@ import globe from "./globe.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import html from "./tech/html.webp";
-import css from "./tech/css.webp";
-import docker from "./tech/docker.webp";
-import javascript from "./tech/javascript.webp";
-import typescript from "./tech/typescript.webp";
-import bootstrap from "./tech/bootstrap.webp";
-import tailwind from "./tech/tailwind.webp";
+import html from "./tech/html.svg";
+import css from "./tech/css.svg";
+import docker from "./tech/docker.svg";
+import javascript from "./tech/javascript.svg";
+import typescript from "./tech/typescript.svg";
+import bootstrap from "./tech/bootstrap.svg";
+import tailwind from "./tech/tailwind.svg";
+import astro from "./tech/astro.svg";
 
-import express from "./tech/express.webp";
-import figma from "./tech/figma.webp";
-import git from "./tech/git.webp";
+import express from "./tech/express.svg";
+import figma from "./tech/figma.svg";
+import git from "./tech/git.svg";
 import nextjs from "./tech/nextjs.svg";
-import nodejs from "./tech/nodejs.webp";
-import python from "./tech/python.webp";
+import nodejs from "./tech/nodejs.svg";
+import python from "./tech/python.svg";
 import mysql from "./tech/mysql.svg";
 import mongodb from "./tech/mongodb.svg";
-import reactjs from "./tech/reactjs.webp";
+import reactjs from "./tech/reactjs.svg";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
@@ -58,6 +59,7 @@ export {
     javascript,
     bootstrap,
     nodejs,
+    astro,
     nextjs,
     python,
     reactjs,

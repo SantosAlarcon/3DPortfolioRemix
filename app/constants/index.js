@@ -7,6 +7,7 @@ import {
     html,
     css,
     reactjs,
+    astro,
     express,
     tailwind,
     nodejs,
@@ -89,6 +90,11 @@ const tech_front = [
         name: "Tailwind CSS",
         icon: tailwind,
     },
+    {
+	name: "Astro",
+	icon: astro,
+    }
+    ,
     {
         name: "NextJS",
         icon: nextjs,

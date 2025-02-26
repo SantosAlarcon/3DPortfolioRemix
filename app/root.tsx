@@ -1,6 +1,5 @@
 import {
     Links,
-    Meta,
     Scripts,
     ScrollRestoration,
 } from "@remix-run/react";
