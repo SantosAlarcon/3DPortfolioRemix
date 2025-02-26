@@ -30,7 +30,6 @@ const Navbar = () => {
         <header>
             <nav
                 className={`${styles.paddingX} bg-navbar fixed top-0 z-20 flex w-full items-center py-5 backdrop-blur`}
-                role="navigation"
             >
                 <div className="mx-auto flex w-full max-w-7xl items-center justify-between">
                     <Link
@@ -78,19 +77,18 @@ const Navbar = () => {
                 </div>
             </nav>
             <div
-                className={`${!toggle ? "opacity-0" : "opacity-100"} fixed right-0 top-[4.5em] flex min-h-[100vh] min-w-[100%] overflow-hidden bg-[#000b] p-6 backdrop-blur transition ${zIndex} duration-300`}
+                className={`${toggle ? "opacity-100" : "opacity-0"} fixed right-0 top-[4.5em] flex min-h-[100vh] min-w-[100%] overflow-hidden bg-[#000b] p-6 backdrop-blur transition ${zIndex} duration-300`}
             >
-                <ul className="flex w-full list-none flex-col items-center justify-center gap-4">
+                <ul className="flex w-full list-none flex-col items-center justify-center gap-4" inert={toggle ? false : true}>
                     {navLinks.map((link) => (
                         <li
                             id="mobile-menu-link"
-                            aria-hidden="true"
                             key={link.id}
                             className={`${
                                 active === link.title
                                     ? "text-white"
                                     : "text-secondary"
-                            } mobileNavLink text-[3em] font-medium transition hover:scale-150 ${toggle ? "translate-x-0" : "translate-x-96"}`}
+                            } mobileNavLink text-[3em] font-medium transition hover:scale-150 ${toggle ? "translate-x-0" : "translate-x-96"} inert`}
                             onClick={() => {
                                 setActive(link.title);
                                 setToggle(!toggle);

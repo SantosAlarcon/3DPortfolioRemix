@@ -1,10 +1,10 @@
-import { useState, useRef } from "react";
+import { useState, useRef, lazy, Suspense } from "react";
 import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { MotionDiv } from "./Motions";
+import { useInView } from "motion/react";
 
 const Contact = () => {
     const formRef = useRef();
@@ -58,6 +58,8 @@ const Contact = () => {
                 },
             );
     };
+
+    const LazyEarthCanvas = lazy(() => import("./canvas/Earth"));
 
     return (
         <div className="flex flex-col-reverse gap-10 overflow-hidden text-[18px] xl:mt-12 xl:flex-row">
@@ -194,7 +196,9 @@ const Contact = () => {
                 className="h-[350px] md:h-[550px] xl:h-auto xl:flex-1"
                 variants={slideIn("right", "tween", 0.2, 1)}
             >
-                <EarthCanvas />
+		<Suspense>
+		    <LazyEarthCanvas />
+		</Suspense>
             </MotionDiv>
         </div>
     );
