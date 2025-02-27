@@ -21,16 +21,18 @@ export function Layout({ children }: { children: React.ReactNode }) {
                 <meta charSet="UTF-8" />
                 <title>Santos Alarcón - Desarrollador Web</title>
                 <link rel="icon" type="image/webp" href="/LogoSantosAlarcon.webp" />
+		<link rel="canonical" href="https://www.santosalarcon.es" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta name="robots" content="index, follow" />
                 <meta name="title" content="Santos Alarcón - Desarrollador Web" />
                 <meta property="description" content="Portfolio Web de Santos Alarcón, desarrollador Web" />
                 <meta name="description" content="Portfolio Web de Santos Alarcón, desarrollador Web" />
-                <meta name="keywords" content="santos alarcon, desarrollo web, desarrollo web castilla la mancha, desarrollo web ciudad real, portfolio" />
+                <meta name="keywords" content="santos alarcon, desarrollador web, desarrollador web castilla la mancha, desarrollador web ciudad real, portfolio, desarrollador frontend, desarrollador React, desarrollador full-stack" />
                 <meta property="og:title" content="Santos Alarcón - Desarrollador Web" />
                 <meta property="og:description" content="Portfolio Web de Santos Alarcón, desarrollador Web" />
                 <meta property="og:image" content="https://www.santosalarcon.es/LogoTransparente.webp" />
                 <meta property="og:url" content="https://www.santosalarcon.es" />
+		<meta property="og:type" content="website" />
                 <Links />
             </head>
             <body>
