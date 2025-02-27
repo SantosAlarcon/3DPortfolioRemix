@@ -45,9 +45,9 @@ const Navbar = () => {
                             alt="logo"
                             className="h-9 w-9 object-contain"
                         />
-                        <p className="flex cursor-pointer text-[18px] font-bold text-white">
+                        <h1 className="flex cursor-pointer text-[18px] font-bold text-white">
                             Santos Alarcón Asensio
-                        </p>
+                        </h1>
                     </Link>
                     <ul className="hidden list-none flex-row gap-2 sm:flex">
                         {navLinks.map((link) => (
