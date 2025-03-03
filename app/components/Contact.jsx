@@ -4,7 +4,6 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { MotionDiv } from "./Motions";
-import { useInView } from "motion/react";
 
 const Contact = () => {
     const formRef = useRef();
@@ -76,7 +75,7 @@ const Contact = () => {
                     <a
                         href="/CurriculumFullStack.pdf"
                         aria-label="Descargar curriculum"
-                        className="flex w-fit max-md:w-full items-center justify-center gap-2 rounded-xl bg-tertiary px-8 py-3 font-bold text-white shadow-md shadow-primary outline-none active:scale-95 active:shadow-inner"
+                        className="flex w-fit max-md:w-full items-center justify-center gap-2 rounded-xl bg-tertiary px-8 py-3 font-bold text-white shadow-md shadow-primary active:scale-95 active:shadow-inner"
 			title="Descargar CV"
                     >
                         <svg
@@ -96,7 +95,7 @@ const Contact = () => {
                     <a
                         href="tel:641278743"
                         aria-label="Llamar al número de teléfono"
-                        className="flex w-fit max-md:w-full items-center justify-center gap-2 rounded-xl bg-tertiary px-8 py-3 font-bold text-white shadow-md shadow-primary outline-none active:scale-95 active:shadow-inner"
+                        className="flex w-fit max-md:w-full items-center justify-center gap-2 rounded-xl bg-tertiary px-8 py-3 font-bold text-white shadow-md shadow-primary active:scale-95 active:shadow-inner"
 			title="Número de teléfono"
                     >
                         <svg
@@ -129,7 +128,7 @@ const Contact = () => {
                             </span>
                         </span>
                         <input
-                            className="rounded-lg border-none bg-tertiary px-6 py-4 font-medium text-white outline-none placeholder:text-secondary"
+                            className="rounded-lg border-none bg-tertiary px-6 py-4 font-medium text-white placeholder:text-secondary"
                             type="text"
                             placeholder="Nombre"
                             aria-label="Nombre"
@@ -150,7 +149,7 @@ const Contact = () => {
                             </span>
                         </span>
                         <input
-                            className="rounded-lg border-none bg-tertiary px-6 py-4 font-medium text-white outline-none placeholder:text-secondary"
+                            className="rounded-lg border-none bg-tertiary px-6 py-4 font-medium text-white placeholder:text-secondary"
                             type="email"
                             placeholder="Correo electrónico"
                             aria-label="Correo electrónico"
@@ -171,7 +170,7 @@ const Contact = () => {
                             </span>
                         </span>
                         <textarea
-                            className="rounded-lg border-none bg-tertiary px-6 py-4 font-medium text-white outline-none placeholder:text-secondary"
+                            className="rounded-lg border-none bg-tertiary px-6 py-4 font-medium text-white placeholder:text-secondary"
                             type="text"
                             placeholder="Mensaje"
                             aria-label="Mensaje"
@@ -186,7 +185,7 @@ const Contact = () => {
                         <button
                             type="submit"
                             aria-label="Enviar"
-                            className="w-fit rounded-xl bg-tertiary px-8 py-3 font-bold text-white shadow-md shadow-primary outline-none active:scale-95 active:shadow-inner"
+                            className="w-fit rounded-xl bg-tertiary px-8 py-3 font-bold text-white shadow-md shadow-primary active:scale-95 active:shadow-inner cursor-pointer"
                         >
                             {loading ? "Enviando..." : "Enviar"}
                         </button>
