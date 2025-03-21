@@ -17,7 +17,8 @@ const Footer = () => {
                         xmlns="http://www.w3.org/2000/svg"
                         fill="currentColor"
                         viewBox="0 0 32 32"
-			alt="Gmail"
+                        alt="Gmail"
+						role="presentation"
                     >
                         <path d="M30.996 7.824v17.381c0 0 0 0 0 0.001 0 1.129-0.915 2.044-2.044 2.044-0 0-0 0-0.001 0h-4.772v-11.587l-8.179 6.136-8.179-6.136v11.588h-4.772c0 0 0 0-0 0-1.129 0-2.044-0.915-2.044-2.044 0-0 0-0.001 0-0.001v0-17.381c0-0 0-0.001 0-0.001 0-1.694 1.373-3.067 3.067-3.067 0.694 0 1.334 0.231 1.848 0.619l-0.008-0.006 10.088 7.567 10.088-7.567c0.506-0.383 1.146-0.613 1.84-0.613 1.694 0 3.067 1.373 3.067 3.067v0z" />
                     </svg>
@@ -36,7 +37,8 @@ const Footer = () => {
                         xmlnsXlink="http://www.w3.org/1999/xlink"
                         viewBox="0 0 1000 1000"
                         xmlSpace="preserve"
-			alt="LinkedIn"
+                        alt="LinkedIn"
+						role="presentation"
                     >
                         <g>
                             <g>
@@ -56,7 +58,8 @@ const Footer = () => {
                         xmlns="http://www.w3.org/2000/svg"
                         xmlnsXlink="http://www.w3.org/1999/xlink"
                         viewBox="0 0 20 20"
-			alt="GitHub"
+                        alt="GitHub"
+						role="presentation"
                     >
                         <g
                             id="Page-1"
@@ -95,7 +98,8 @@ const Footer = () => {
                         viewBox="0 0 54 58"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-			alt="Substack"
+                        alt="Substack"
+						role="presentation"
                     >
                         <g clip-path="url(#clip0_5_2)">
                             <path
@@ -139,7 +143,8 @@ const Footer = () => {
                         stroke-width="2.3"
                         stroke-linecap="round"
                         stroke-linejoin="round"
-			alt="Codepen"
+                        alt="Codepen"
+						role="presentation"
                     >
                         <path
                             d="M3.06 41.732L32 60.932l28.94-19.2V22.268L32 3.068l-28.94 19.2zm57.878 0L32 22.268 3.06 41.732m0-19.463L32 41.47l28.94-19.2M32 3.068v19.2m0 19.463v19.2"
@@ -159,7 +164,8 @@ const Footer = () => {
                         xmlnsXlink="http://www.w3.org/1999/xlink"
                         viewBox="0 -3 20 20"
                         version="1.1"
-			alt="YouTube"
+                        alt="YouTube"
+						role="presentation"
                     >
                         <g
                             id="Page-1"

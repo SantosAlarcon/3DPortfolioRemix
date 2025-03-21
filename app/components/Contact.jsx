@@ -75,8 +75,9 @@ const Contact = () => {
                     <a
                         href="/CurriculumFullStack.pdf"
                         aria-label="Descargar curriculum"
+                        role="button"
                         className="flex w-fit max-md:w-full items-center justify-center gap-2 rounded-xl bg-tertiary px-8 py-3 font-bold text-white shadow-md shadow-primary active:scale-95 active:shadow-inner"
-			title="Descargar CV"
+                        title="Descargar CV"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +85,7 @@ const Contact = () => {
                             fill="currentColor"
                             viewBox="0 0 1024 1024"
                             className="h-[36px] w-[36px]"
-			    alt="Curriculum Vitae"
+                            alt="Curriculum Vitae"
                         >
                             <path d="M334.336 616.3456c0 11.5712 9.5232 21.0944 21.0944 21.0944h315.4944c11.5712 0 21.0944-9.5232 21.0944-21.0944s-9.5232-21.0944-21.0944-21.0944H355.4304c-11.6736 0-21.0944 9.5232-21.0944 21.0944zM670.9248 702.0544H355.4304c-11.5712 0-21.0944 9.5232-21.0944 21.0944s9.5232 21.0944 21.0944 21.0944h315.4944c11.5712 0 21.0944-9.5232 21.0944-21.0944s-9.5232-21.0944-21.0944-21.0944z" />
                             <path d="M586.9568 165.888H272.4864c-23.2448 0-42.1888 18.944-42.1888 42.1888v607.8464c0 23.2448 18.944 42.1888 42.1888 42.1888H751.616c23.2448 0 42.1888-18.944 42.1888-42.1888V372.736l-206.848-206.848z m27.4432 87.1424l97.1776 97.1776h-89.9072c-3.8912 0-7.2704-3.3792-7.2704-7.2704v-89.9072z m137.1136 562.7904s0 0.1024 0 0l-479.0272 0.1024s-0.1024 0-0.1024-0.1024V208.1792s0-0.1024 0.1024-0.1024h297.984l1.6384 1.6384v133.12c0 27.2384 22.3232 49.4592 49.4592 49.4592h129.9456v423.5264z" />
@@ -95,8 +96,9 @@ const Contact = () => {
                     <a
                         href="tel:641278743"
                         aria-label="Llamar al número de teléfono"
+                        role="button"
                         className="flex w-fit max-md:w-full items-center justify-center gap-2 rounded-xl bg-tertiary px-8 py-3 font-bold text-white shadow-md shadow-primary active:scale-95 active:shadow-inner"
-			title="Número de teléfono"
+                        title="Número de teléfono"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -104,7 +106,7 @@ const Contact = () => {
                             fill="currentColor"
                             viewBox="0 0 1792 1792"
                             width="32"
-			    alt="Teléfono"
+                            alt="Teléfono"
                         >
                             <path d="M1600 1240q0 27-10 70.5t-21 68.5q-21 50-122 106-94 51-186 51-27 0-52.5-3.5t-57.5-12.5-47.5-14.5-55.5-20.5-49-18q-98-35-175-83-128-79-264.5-215.5t-215.5-264.5q-48-77-83-175-3-9-18-49t-20.5-55.5-14.5-47.5-12.5-57.5-3.5-52.5q0-92 51-186 56-101 106-122 25-11 68.5-21t70.5-10q14 0 21 3 18 6 53 76 11 19 30 54t35 63.5 31 53.5q3 4 17.5 25t21.5 35.5 7 28.5q0 20-28.5 50t-62 55-62 53-28.5 46q0 9 5 22.5t8.5 20.5 14 24 11.5 19q76 137 174 235t235 174q2 1 19 11.5t24 14 20.5 8.5 22.5 5q18 0 46-28.5t53-62 55-62 50-28.5q14 0 28.5 7t35.5 21.5 25 17.5q25 15 53.5 31t63.5 35 54 30q70 35 76 53 3 7 3 21z" />
                         </svg>
@@ -133,6 +135,7 @@ const Contact = () => {
                             placeholder="Nombre"
                             aria-label="Nombre"
                             required
+                            aria-required
                             name="nombre"
                             value={form.nombre}
                             onChange={handleChange}
@@ -154,6 +157,7 @@ const Contact = () => {
                             placeholder="Correo electrónico"
                             aria-label="Correo electrónico"
                             required
+                            aria-required
                             name="email"
                             value={form.email}
                             onChange={handleChange}
@@ -184,6 +188,7 @@ const Contact = () => {
                     <div className="flex flex-wrap gap-8">
                         <button
                             type="submit"
+                            role="button"
                             aria-label="Enviar"
                             className="w-fit rounded-xl bg-tertiary px-8 py-3 font-bold text-white shadow-md shadow-primary active:scale-95 active:shadow-inner cursor-pointer"
                         >
@@ -197,9 +202,9 @@ const Contact = () => {
                 className="h-[350px] md:h-[550px] xl:h-auto xl:flex-1"
                 variants={slideIn("right", "tween", 0.2, 1)}
             >
-		<Suspense>
-		    <LazyEarthCanvas />
-		</Suspense>
+                <Suspense>
+                    <LazyEarthCanvas />
+                </Suspense>
             </MotionDiv>
         </div>
     );
