@@ -22,8 +22,8 @@
     "isbot": "^5.1.25",
     "maath": "^0.10.8",
     "motion": "^12.9.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "react-parallax-tilt": "^1.7.287",
     "react-router": "^7.4.0",
     "react-vertical-timeline-component": "^3.6.0",
@@ -48,9 +48,9 @@
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.2.0",
     "prettier-plugin-tailwindcss": "^0.6.11",
-    "tailwindcss": "^4.0.15",
+    "tailwindcss": "^4.1.4",
     "typescript": "^5.8.2",
-    "vite": "^6.2.2",
+    "vite": "^6.3.3",
     "vite-tsconfig-paths": "^5.1.4"
   },
   "engines": {
