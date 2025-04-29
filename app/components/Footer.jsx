@@ -101,7 +101,7 @@ const Footer = () => {
                         alt="Substack"
 						role="presentation"
                     >
-                        <g clip-path="url(#clip0_5_2)">
+                        <g clipPath="url(#clip0_5_2)">
                             <path
                                 d="M33.5986 8.65H-3.57628e-07V13.1884H33.5986V8.65Z"
                                 fill="currentColor"
@@ -140,15 +140,15 @@ const Footer = () => {
                         viewBox="0 0 80 80"
                         fill="none"
                         stroke="currentColor"
-                        stroke-width="2.3"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2.3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         alt="Codepen"
 						role="presentation"
                     >
                         <path
                             d="M3.06 41.732L32 60.932l28.94-19.2V22.268L32 3.068l-28.94 19.2zm57.878 0L32 22.268 3.06 41.732m0-19.463L32 41.47l28.94-19.2M32 3.068v19.2m0 19.463v19.2"
-                            stroke-width="6.05"
+                            strokeWidth="6.05"
                         />
                     </svg>
                 </a>
@@ -172,7 +172,7 @@ const Footer = () => {
                             stroke="none"
                             stroke-width="1"
                             fill="none"
-                            fill-rule="evenodd"
+                            fillRule="evenodd"
                         >
                             <g
                                 id="Dribbble-Light-Preview"

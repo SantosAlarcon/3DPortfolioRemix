@@ -21,7 +21,7 @@
     "@tailwindcss/vite": "^4.0.15",
     "isbot": "^5.1.25",
     "maath": "^0.10.8",
-    "motion": "^12.5.0",
+    "motion": "^12.9.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-parallax-tilt": "^1.7.287",
