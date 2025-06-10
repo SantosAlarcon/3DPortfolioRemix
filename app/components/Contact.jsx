@@ -1,9 +1,9 @@
-import { useState, useRef, lazy, Suspense } from "react";
 import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 import { MotionDiv } from "./Motions";
+import { lazy, Suspense, useRef, useState } from "react";
 
 const Contact = () => {
     const formRef = useRef();
