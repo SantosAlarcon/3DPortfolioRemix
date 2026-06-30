@@ -1,15 +1,14 @@
 import { Links, Scripts, ScrollRestoration } from "@remix-run/react";
-
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
 import About from "./components/About";
-import Footer from "./components/Footer";
-import Tech from "./components/Tech";
-import Works from "./components/Works";
 import Contact from "./components/Contact";
 import { StarsCanvas } from "./components/canvas";
-import "~/index.css";
-import Snowfall from "react-snowfall"
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Tech from "./components/Tech";
+import Works from "./components/Works";
+import "./index.css";
+import Snowfall from "react-snowfall";
 
 export function Layout({ children }: { children: React.ReactNode }) {
 	return (
@@ -62,7 +61,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
 export default function App() {
 	return (
 		<div className="relative bg-primary">
-			{(new Date().getMonth() === 11 || new Date().getMonth() === 0 && new Date().getDate() >= 15 && new Date().getDate() < 7) && (<Snowfall snowflakeCount={500} />)}
+			{(new Date().getMonth() === 11 ||
+				(new Date().getMonth() === 0 &&
+					new Date().getDate() >= 15 &&
+					new Date().getDate() < 7)) && <Snowfall snowflakeCount={500} />}
 			<div className="bg-hero-pattern bg-cover bg-center bg-no-repeat">
 				<Navbar />
 				<Hero />

@@ -1,38 +1,84 @@
+interface NavLink {
+	id: string;
+	title: string;
+}
+
+interface Service {
+	title: string;
+	icon: string;
+}
+
+interface Tech {
+	name: string;
+	icon: string;
+}
+
+interface Experience {
+	title: string;
+	company_name: string;
+	icon: string;
+	iconBg: string;
+	date: string;
+	points: string[];
+}
+
+interface Testimonial {
+	testimonial: string;
+	name: string;
+	designation: string;
+	company: string;
+	image: string;
+}
+
+interface Tag {
+	name: string;
+	color: string;
+}
+
+interface Project {
+	name: string;
+	description: string;
+	tags: Tag[];
+	image: string;
+	source_code_link: string;
+	live_code_link: string;
+}
+
 import {
-	mobile,
-	backend,
-	web,
-	javascript,
-	typescript,
-	html,
-	css,
-	reactjs,
 	astro,
-	express,
-	tailwind,
-	nodejs,
-	python,
-	mysql,
-	mongodb,
-	bootstrap,
-	git,
-	figma,
-	docker,
-	nextjs,
-	meta,
-	starbucks,
-	tesla,
-	shopify,
-	lavelada3,
-	portfolio,
+	backend,
 	bookmarker,
-	iphone15pro,
-	nextkeep,
+	bootstrap,
+	css,
+	// docker,
 	eventosmanga,
-	guianeovim
+	express,
+	// figma,
+	git,
+	guianeovim,
+	html,
+	iphone15pro,
+	javascript,
+	lavelada3,
+	meta,
+	mobile,
+	mongodb,
+	mysql,
+	nextjs,
+	nextkeep,
+	nodejs,
+	portfolio,
+	python,
+	reactjs,
+	shopify,
+	starbucks,
+	tailwind,
+	tesla,
+	typescript,
+	web,
 } from "../assets";
 
-export const navLinks = [
+export const navLinks: NavLink[] = [
 	{
 		id: "about",
 		title: "Sobre mí",
@@ -47,7 +93,7 @@ export const navLinks = [
 	},
 ];
 
-const services = [
+const services: Service[] = [
 	{
 		title: "Diseño Web",
 		icon: web,
@@ -62,7 +108,7 @@ const services = [
 	},
 ];
 
-const tech_front = [
+const tech_front: Tech[] = [
 	{
 		name: "HTML 5",
 		icon: html,
@@ -94,15 +140,14 @@ const tech_front = [
 	{
 		name: "Astro",
 		icon: astro,
-	}
-	,
+	},
 	{
 		name: "NextJS",
 		icon: nextjs,
 	},
 ];
 
-const tech_back = [
+const tech_back: Tech[] = [
 	{
 		name: "Express JS",
 		icon: express,
@@ -129,7 +174,7 @@ const tech_back = [
 	},
 ];
 
-const experiences = [
+const experiences: Experience[] = [
 	{
 		title: "React.js Developer",
 		company_name: "Starbucks",
@@ -184,7 +229,7 @@ const experiences = [
 	},
 ];
 
-const testimonials = [
+const testimonials: Testimonial[] = [
 	{
 		testimonial:
 			"I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
@@ -211,7 +256,7 @@ const testimonials = [
 	},
 ];
 
-const projects = [
+const projects: Project[] = [
 	{
 		name: "La Velada del Año 3",
 		description: `Mi versión de la 'landing page' de "La Velada del Año III" de Ibai Llanos, actualizada con los últimos datos, 100% responsive y optimizada.`,
@@ -375,4 +420,4 @@ const projects = [
 	},
 ];
 
-export { services, tech_front, tech_back, experiences, testimonials, projects };
+export { experiences, projects, services, tech_back, tech_front, testimonials };

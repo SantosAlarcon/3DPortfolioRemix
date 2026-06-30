@@ -1,17 +1,17 @@
-import { styles } from "../styles";
 import logo from "/SantosAlarconLight.svg";
+import { styles } from "../styles";
 
 const Hero = () => {
-    return (
-        <section className="relative h-screen w-full max-sm:h-[30rem]">
-            <div
-                className={`${styles.paddingX} absolute inset-0 top-[120px] mx-auto flex max-w-7xl flex-row justify-center gap-5`}
-            >
-                <link rel="preload" as="image" href={logo} fetchPriority="high" />
-                <img src={logo} className="h-auto object-contain" alt="logo" />
-            </div>
+	return (
+		<section className="relative h-screen w-full max-sm:h-[30rem]">
+			<div
+				className={`${styles.paddingX} absolute inset-0 top-[120px] mx-auto flex max-w-7xl flex-row justify-center gap-5`}
+			>
+				<link rel="preload" as="image" href={logo} fetchPriority="high" />
+				<img src={logo} className="h-auto object-contain" alt="logo" />
+			</div>
 
-            {/*<div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+			{/*<div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
                 <a href="#about">
                     <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
                         <motion.div
@@ -28,8 +28,8 @@ const Hero = () => {
                     </div>
                 </a>
             </div>*/}
-        </section>
-    );
+		</section>
+	);
 };
 
 export default Hero;
