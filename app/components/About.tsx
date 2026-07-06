@@ -45,7 +45,7 @@ const ServiceCard = ({ title, icon, index }: ServiceCardProps) => {
 const About = () => {
 	return (
 		<div className="max-sm:overflow-hidden">
-			<MotionDiv variants={textVariant()}>
+			<MotionDiv variants={textVariant}>
 				<h2 className={styles.sectionHeadText}>Sobre mí</h2>
 				<p className={styles.sectionSubText}>Introducción</p>
 			</MotionDiv>

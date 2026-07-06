@@ -1,11 +1,11 @@
-import { styles } from "../styles";
+import ReactParallaxTilt from "react-parallax-tilt";
+import { github, globe } from "../assets";
 import { projects } from "../constants";
 import { SectionWrapper } from "../hoc";
-import { github, globe } from "../assets";
+import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
-import "../styles/Works.css";
 import { MotionDiv, MotionP } from "./Motions";
-import ReactParallaxTilt from "react-parallax-tilt";
+import "../styles/Works.css";
 
 interface ProjectCardProps {
 	name: string;
