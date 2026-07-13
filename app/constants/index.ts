@@ -66,6 +66,7 @@ import {
 	mysql,
 	nextjs,
 	nextkeep,
+    quotify,
 	nodejs,
 	portfolio,
 	python,
@@ -418,6 +419,27 @@ const projects: Project[] = [
 		source_code_link: "https://github.com/SantosAlarcon/guia-neovim",
 		live_code_link: "https://www.guia-neovim.es",
 	},
+    {
+        name: "Quotify",
+        description: "Generador de citas/frases célebres que se pueden exportar a imágenes para compartirlas en redes sociales",
+        tags: [
+            {
+                name: "React",
+                color: "react"
+            },
+            {
+                name: "Takumi",
+                color: "takumi"
+            },
+            {
+                name: "Waku",
+                color: "waku"
+            },
+        ],
+        image: quotify,
+        source_code_link: "https://www.github.com/SantosAlarcon/Quotify",
+        live_code_link: "https://quotify-pearl.vercel.app",
+    }
 ];
 
 export { experiences, projects, services, tech_back, tech_front, testimonials };

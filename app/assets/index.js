@@ -40,6 +40,7 @@ import iphone15pro from "./works/iphone15pro.webp";
 import nextkeep from "./works/NextKeep.webp";
 import eventosmanga from "./works/EventosManga.webp";
 import guianeovim from "./works/GuiaNeovim.png";
+import quotify from "./works/Quotify.webp";
 
 export {
 	logo,
@@ -80,4 +81,5 @@ export {
 	nextkeep,
 	eventosmanga,
 	guianeovim,
+    quotify
 };
