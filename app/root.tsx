@@ -9,6 +9,8 @@ import Tech from "./components/Tech";
 import Works from "./components/Works";
 import "./index.css";
 import Snowfall from "react-snowfall";
+import "@fontsource-variable/jost"
+import "@fontsource-variable/victor-mono"
 
 export function Layout({ children }: { children: React.ReactNode }) {
 	return (
